@@ -1,4 +1,5 @@
-select k.first_name, 
+select 
+k.first_name, 
 k.last_name 
 from customers k
 left join orders a on a.customer_id = k.customer_id
